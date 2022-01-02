@@ -3,10 +3,10 @@ from textblob import TextBlob
 import tweepy
 import sys
 
-api_key='B8G7GB1LghdELdawfOgK3BYnz'
-api_key_secret= 'TyHmf6x8jfzoJkXju08le54JXnZNmlXQ8W4cS9CeH2aQ6YmMm1'
-access_token = '2519947160-g8T45VSpEtR0fKlVIUWzkfbhUvahFSuPMcidEUg'
-access_token_secret = 'Kz3Ufc4HZOeHJ03ztbwB1cdkPHE5V7x0vg7taL4mHxGeF'
+api_key='*********************'
+api_key_secret= '************************'
+access_token = '***********************'
+access_token_secret = '********************'
 
 #accessing the keys and tokens
 auth_handler = tweepy.OAuthHandler(consumer_key = api_key,consumer_secret=api_key_secret)
